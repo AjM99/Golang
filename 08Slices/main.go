@@ -21,7 +21,7 @@ func main() {
 	score[2] = 2
 	score[3] = 3
 
-	score = append(score, 4, 5, 6) // even though limit is 4 for slice it appends, frist 4 are default /fixed rest are added
+	score = append(score, 9, 5, 6) // even though limit is 4 for slice it appends, frist 4 are default /fixed rest are added.
 
 	fmt.Println(score)
 }
